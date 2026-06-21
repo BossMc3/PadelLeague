@@ -40,9 +40,12 @@
 1. **Clone** the repository.
 2. **Install** dependencies:
    npm install
-3. **Configure** credentials: Create a `.env.local` file in the root directory and add your Supabase variables:
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_public_key
+3. **Configure Database**: 
+   * Create a free account on [Supabase](https://supabase.com).
+   * Go to the **SQL Editor** in your Supabase dashboard, paste the contents of the `supabase-schema.sql` file, and run it to create the required tables.
+   * Create a `.env.local` file in the root directory and add your credentials:
+     NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+     NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_public_key
 4. **Run** the development server:
    npm run dev
 5. **Open** in your browser: http://localhost:3000 (or http://localhost:3001 if port 3000 is already in use).
