@@ -7,6 +7,16 @@
 
 ---
 
+### 📸 Preview
+
+### 📸 Preview
+
+| Tournament Dashboard | Create Tournament | Live Standings & ELO |
+|---|---|---|
+| ![Dashboard](./images/dashboard.png) | ![Create Tournament](./images/create-tournament.png) | ![Standings](./images/standings.png) |
+
+---
+
 ### ✨ Key Features (TourneyOS Core)
 
 * **🔄 Automatic Bracket Generation:** Creates tournament matches instantly via random draw at the push of a button.
@@ -31,13 +41,13 @@
 
 1. **Clone** the repository.
 2. **Install** dependencies:
-   ```bash
    npm install
-3. **Configure** your .env.local file with your Supabase credentials.
-4.  **Run** the development server:
-     ```bash
-     npm run dev
-  5. **Open** in your browser: http://localhost:3000
+3. **Configure** credentials: Create a `.env.local` file in the root directory and add your Supabase variables:
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_public_key
+4. **Run** the development server:
+   npm run dev
+5. **Open** in your browser: http://localhost:3000 (or http://localhost:3001 if port 3000 is already in use).
 
+---
 Built as the main logic project for Challenge 3 - PadelLeague.
-   
