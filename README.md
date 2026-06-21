@@ -9,8 +9,6 @@
 
 ### 📸 Preview
 
-### 📸 Preview
-
 | Tournament Dashboard | Create Tournament | Live Standings & ELO |
 |---|---|---|
 | ![Dashboard](./images/dashboard.png) | ![Create Tournament](./images/create-tournament.png) | ![Standings](./images/standings.png) |
